@@ -76,9 +76,9 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="hero-h">Эффективные решения для вашего бизнеса</h1>
+          <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
           <button class="button" type="button" data-modal-open>
-            <span class="button-text">Заказать услугу</span>
+            <span class="button__text">Заказать услугу</span>
           </button>
         </div>
       </section>
@@ -87,30 +87,30 @@
         <div class="container">
           <h2 class="section-two">Особенности</h2>
           <ul class="list">
-            <li class="item-main-features antenna">
-              <h3 class="headline">Внимание к деталям</h3>
-              <p class="features-text">
+            <li class="features__item features__item--antenna">
+              <h3 class="features__title">Внимание к деталям</h3>
+              <p class="features__text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="item-main-features clock">
-              <h3 class="headline">Пунктуальность</h3>
-              <p class="features-text">
+            <li class="features__item features__item--clock">
+              <h3 class="features__title">Пунктуальность</h3>
+              <p class="features__text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="item-main-features diagram">
-              <h3 class="headline">Планирование</h3>
-              <p class="features-text">
+            <li class="features__item features__item--diagram">
+              <h3 class="features__title">Планирование</h3>
+              <p class="features__text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="item-main-features astronaut">
-              <h3 class="headline">Современные технологии</h3>
-              <p class="features-text">
+            <li class="features__item features__item--astronaut">
+              <h3 class="features__title">Современные технологии</h3>
+              <p class="features__text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -119,25 +119,22 @@
         </div>
       </section>
 
-      <section class="section section-work">
+      <section class="work section">
         <div class="container">
           <h2 class="caption">Чем мы занимаемся</h2>
           <ul class="list">
-            <li class="item-main">
+            <li class="work__item">
               <img src="img/box1.jpg" alt="Написання сайту" width="370" />
-              <p class="text-item-main">Десктопные приложения</p>
+              <p class="work__item-text">Десктопные приложения</p>
             </li>
-            <li class="item-main">
+            <li class="work__item">
               <img
-                src="img/img(1).jpg"
-                alt="Адаптація його до різний пристроїв"
-                width="370"
-              />
-              <p class="text-item-main">Дизайнерские решения</p>
+                src="img/img(1).jpg" alt="Адаптація його до різний пристроїв" width="370"/>
+              <p class="work__item-text">Дизайнерские решения</p>
             </li>
-            <li class="item-main">
+            <li class="work__item">
               <img src="img/img.jpg" alt="Створення дизайну" width="370" />
-              <p class="text-item-main">Мобильные приложения</p>
+              <p class="work__item-text">Мобильные приложения</p>
             </li>
           </ul>
         </div>
@@ -595,10 +592,16 @@
             <p class="subscribe-form">Подпишитесь на рассылку</p>
             <form>
               <label for="email">
-                <input type="text" name="email" placeholder="E-mail" class="subscribe-input" />
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="E-mail"
+                  class="subscribe-input"
+                />
               </label>
-              <button type="button" class="button-subscribe">Подписаться
-                <span class="subscribe-icon"></span></button>
+              <button type="button" class="button-subscribe">
+                Подписаться <span class="subscribe-icon"></span>
+              </button>
             </form>
           </div>
         </div>
