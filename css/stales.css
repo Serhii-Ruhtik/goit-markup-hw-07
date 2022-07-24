@@ -118,6 +118,8 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+
 .header__link:hover,
 .header__link:focus {
   color: var(--acsent-text-color);
@@ -193,10 +195,7 @@ img {
   padding-top: 60px;
 }
 
-.footer-list {
-  list-style: none;
-  margin-top: 20px;
-}
+
 
 .header__link.contact-header {
   font-weight: 500;
@@ -208,13 +207,7 @@ img {
   font-weight: 400;
 }
 
-.item-mail {
-  margin-top: 9px;
-}
 
-.item-tel {
-  margin-top: 9px;
-}
 
 .section {
   padding-top: 94px;
@@ -570,14 +563,62 @@ img {
   align-items: baseline;
 }
 
+.footer__link {
+  position: relative;
 
+  text-decoration: none;
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-.footer-join-in {
+.footer__logo{
+  color: var(--acsent-text-color);
+}
+
+.slogan {
+  color: var(--color-white);
+}
+
+.footer__link--fonts {
+  font-family: Raleway;
+
+  font-size: 26px;
+  line-height: 1.1;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.footer__list {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.footer__tagline {
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 1.71;
+
+  color: var(--color-white);
+}
+
+.footer__item-mail {
+  margin-top: 9px;
+}
+
+.footer__item-tel {
+  margin-top: 9px;
+}
+
+.join-in {
   margin-left: 70px;
   padding-top: 12px;
 }
 
-.join-in {
+.join-in__title {
   margin-bottom: 20px;
   font-style: normal;
   font-weight: 700;
@@ -589,16 +630,16 @@ img {
   color: #ffffff;
 }
 
-.join-in-list {
+.join-in__list {
   display: flex;
   list-style: none;
 }
 
-.join-in-item:not(:last-child) {
+.join-in__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.link-join-in {
+.join-in__link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -610,27 +651,18 @@ img {
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-join-in:hover,
-.link-join-in:focus {
+.join-in__link:hover,
+.join-in__link:focus {
   background-color: var(--acsent-text-color);
 }
 
-.madia-join-in {
+.join-in__icon {
   fill: var(--color-white);
 }
 
-.slogan {
-  color: var(--color-white);
-}
 
-.tagline {
-  font-style: normal;
-  font-weight: 400;
 
-  line-height: 1.71;
 
-  color: var(--color-white);
-}
 
 .control {
   outline-style: none;
