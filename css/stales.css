@@ -53,7 +53,7 @@ img {
   line-height: 1.15;
 }
 
-.header-list {
+.header__list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -105,21 +105,9 @@ img {
   color: var(--acsent-text-color);
 }
 
-/* .contact-header.tel::before {
-  content: "";
-  width: 16px;
-  height: 12px;
-  display: inline-block;
-  align-items: center;
-  margin-right: 10px;
 
-  background-image: url(/img/icon/tel.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
 
-.text-note {
+.header__link {
   position: relative;
 
   text-decoration: none;
@@ -130,12 +118,12 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.text-note:hover,
-.text-note:focus {
+.header__link:hover,
+.header__link:focus {
   color: var(--acsent-text-color);
 }
 
-.text-note.fonts {
+.header__link--fonts {
   font-family: Raleway;
 
   font-size: 26px;
@@ -144,10 +132,10 @@ img {
   padding-bottom: 24px;
 }
 
-.text-note.current,
-.text-note.portfolio,
-.text-note.text-contact,
-.text-note.contact-header {
+.header__link.current,
+.header__link.portfolio,
+.header__link.text-contact,
+.header__link.contact-header {
   padding-top: 30px;
   padding-bottom: 32px;
 }
@@ -156,7 +144,7 @@ img {
   margin-right: 30px;
 }
 
-.text-note.fonts:hover {
+.header__link.fonts:hover {
   color: var(--primary-text-color);
 }
 
@@ -210,13 +198,13 @@ img {
   margin-top: 20px;
 }
 
-.text-note.contact-header {
+.header__link.contact-header {
   font-weight: 500;
   color: var(--secondary-text-color);
   align-items: center;
 }
 
-.text-note.contact {
+.header__link.contact {
   font-weight: 400;
 }
 
@@ -234,11 +222,11 @@ img {
 }
 
 
-.item {
+.header__item {
   margin-right: 50px;
 }
 
-.item:last-child {
+.header__item:last-child {
   margin-right: 0;
 }
 
@@ -256,7 +244,7 @@ img {
 }
 
 /* LOGO */
-.color-logo {
+.header__logo {
   color: var(--acsent-text-color);
 }
 
@@ -577,10 +565,12 @@ img {
   padding-bottom: 60px;
 }
 
-.main-footer {
+.footer__container {
   display: flex;
-  justify-content: start;
+  align-items: baseline;
 }
+
+
 
 .footer-join-in {
   margin-left: 70px;
@@ -701,7 +691,7 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-.header-contact {
+.header__contact {
   display: flex;
   align-items: center;
   height: 80px;
@@ -751,10 +741,7 @@ img {
     0px 2px 1px rgb(0 0 0 / 20%);
 }
 
-.footer-container {
-  display: flex;
-  align-items: baseline;
-}
+
 
 .flex-container {
   display: flex;
