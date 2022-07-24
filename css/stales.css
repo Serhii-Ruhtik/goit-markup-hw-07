@@ -904,7 +904,7 @@ img {
   padding: 40px;
 }
 
-.modal-close-button {
+.modal__close-button {
   position: absolute;
   display: flex;
   align-items: center;
@@ -923,18 +923,18 @@ img {
   
 }
 
-.modal-close-button:hover {
+.modal__close-button:hover {
   cursor: pointer;
   fill: var(--acsent-text-color);
 }
 
 /* FORM-FOOTER */
 
-.form-footer {
+.footer-form {
   margin-left: auto;
 }
 
-.subscribe-form {
+.footer-form__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -945,7 +945,7 @@ img {
   margin-bottom: 20px;
 }
 
-.subscribe-input {
+.footer-form__input {
   width: 358px;
   height: 50px;
   left: 815px;
@@ -963,7 +963,7 @@ img {
   padding-right: 28px;
 }
 
-.button-subscribe {
+.footer-form__button {
   width: 200px;
   height: 50px;
   left: 1185px;
@@ -978,7 +978,7 @@ img {
 
 
 
-.subscribe-icon {
+.footer-form__icon {
   position: absolute;
 
   width: 24px;
@@ -988,7 +988,7 @@ img {
   margin-top: -4px;
 }
 
-/* BACKDROP MODAL */
+
 
 /* Form-Style-Modal */
 .form-modal {
@@ -1153,4 +1153,3 @@ img {
   color: var(--color-white);
 }
 
-/* Form-Style-Modal */
