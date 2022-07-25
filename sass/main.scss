@@ -1,6 +1,12 @@
-// =======================Styly teg
+// Styly teg
 @import "utils/vars";
+@import "utils/overflow";
 
 // header footer
 @import "layout/header";
 @import "layout/logo"; 
+
+// components
+@import "components/hero";
+@import "components/button";
+@import "components/features";
