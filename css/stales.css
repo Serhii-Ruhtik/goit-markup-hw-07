@@ -35,7 +35,7 @@ img {
   height: auto;
 } */
 
-.list {
+/* .list {
   padding: 0;
   list-style: none;
   display: flex;
@@ -51,7 +51,7 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.15;
-}
+} */
 
 /* .header__list {
   margin: 0;
@@ -643,7 +643,7 @@ img {
 
 
 
-.control {
+/* .control {
   outline-style: none;
   font-weight: 500;
   font-size: 16px;
@@ -665,7 +665,7 @@ img {
 .control:focus {
   background-color: var(--acsent-text-color);
   color: var(--color-white);
-}
+} */
 
 .flex__link {
   text-decoration: none;
@@ -691,14 +691,14 @@ img {
   color: var(--secondary-text-color);
 }
 
-.container {
+/* .container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding: 0 15px 0 15px;
-}
+} */
 
-.header {
+/* .header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -708,7 +708,7 @@ img {
   height: 80px;
   left: 0px;
   top: 0px;
-}
+} */
 
 .list .item-main + .item-main {
   margin-left: 30px;
@@ -720,7 +720,7 @@ img {
   margin-right: 0;
 }
 
-.section-margin {
+/* .section-margin {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -746,15 +746,15 @@ img {
 
 .portfolio__item > .control {
   border-radius: 4px;
-}
-.control:hover {
+} */
+/* .control:hover {
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
     0px 2px 1px rgb(0 0 0 / 20%);
-}
+} */
 
 
 
-.flex {
+/* .flex {
   margin: 0;
   padding-left: 0;
 
@@ -794,13 +794,13 @@ img {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
-}
+} */
 
 /*  */
 /* OVERLAY */
 /*  */
 
-.overlay {
+/* .overlay {
   position: relative;
   overflow: hidden;
 }
@@ -836,16 +836,16 @@ img {
   transform: translateY(101%);
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.flex__link:hover .overlay__text,
+/* .flex__link:hover .overlay__text,
 .flex__link:focus .overlay__text {
   transform: translateY(0);
 }
 .flex__link:hover .overlay::before,
 .flex__link:focus .overlay::before {
   transform: translateY(0);
-}
+} */
 
 /* BACKDROP MODAL */
 

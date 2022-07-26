@@ -1,11 +1,18 @@
-// Styly teg
+// Styly teg, blok
 @import "utils/vars";
 @import "utils/overflow";
+@import "utils/container";
+
+
+
 
 // header footer
 @import "layout/header";
 @import "layout/logo";
 @import "layout/footer";
+
+
+
 
 // components
 @import "components/hero";
@@ -14,3 +21,9 @@
 @import "components/work";
 @import "components/comand";
 @import "components/regular-customers";
+
+
+
+
+// Portfolio
+@import "pages/portfolio";
