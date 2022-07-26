@@ -667,12 +667,12 @@ img {
   color: var(--color-white);
 } */
 
-.flex__link {
+/* .flex__link {
   text-decoration: none;
   overflow: hidden;
-}
+} */
 
-.desc {
+/* .desc {
   margin-bottom: 4px;
 
   font-weight: 700;
@@ -689,7 +689,7 @@ img {
   line-height: 1.88;
 
   color: var(--secondary-text-color);
-}
+} */
 
 /* .container {
   margin-left: auto;
@@ -715,10 +715,10 @@ img {
 }
 
 
-
+/* 
 .features__item:nth-child(4) {
   margin-right: 0;
-}
+} */
 
 /* .section-margin {
   padding-top: 94px;

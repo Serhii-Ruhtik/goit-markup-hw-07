@@ -499,6 +499,10 @@ img {
   margin-right: auto;
 }
 
+.list .item-main + .item-main {
+  margin-left: 30px;
+}
+
 .button {
   background-color: var(--acsent-text-color);
   font-family: inherit;
@@ -629,6 +633,10 @@ img {
   font-size: 14px;
   line-height: 1.71;
   margin-bottom: 0;
+}
+
+.features__item:nth-child(4) {
+  margin-right: 0;
 }
 
 .work {
@@ -1055,4 +1063,25 @@ img {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
+}
+
+.flex__link {
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.desc {
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.excerpt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--secondary-text-color);
 }/*# sourceMappingURL=main.css.map */
